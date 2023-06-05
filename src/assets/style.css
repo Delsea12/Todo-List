@@ -1,0 +1,149 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    background-color: #1ea8e7;
+    height: 4.5rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0 40px 0 40px;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bi-check2-square {
+    color: white;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+
+/*********************************/
+
+.card-bottom,
+.check-box,
+.card-dots {
+    cursor: pointer;
+}
+
+.check-box {
+    width: 22px;
+    height: 22px;
+}
+
+.card-dots {
+    font-size: 20px;
+}
+
+
+
+
+/*****************************/
+
+.title-color {
+    color: #0d6efd;
+}
+
+.tag-project,
+.tag-personal,
+.tag-urgent,
+.tag-list {
+    padding: 0.3rem;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.tag-project {
+    border: 0.5px solid #1ea8e7;
+    color: #1ea8e7;
+}
+
+.tag-personal {
+    border: 1px solid #ebb71a;
+    color: #ebb71a;
+}
+
+.tag-urgent {
+    border: 1px solid #771a23;
+    color: #771a23;
+}
+
+.tag-list {
+    border: 1px solid #439b38;
+    color: #439b38;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: darkgray !important;
+    border-color: darkgray;
+}
+
+
+/***************************/
+/*
+  Enter and leave animations can use different
+  durations and timing functions.
+*/
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+.wk-wrapper{
+    width:auto !important;
+    background-color: #1fba72 !important;
+}
+.wk-wrapper.wk-alert {
+    background-color: rgb(223, 25, 25) !important;
+}
+.form-Header{
+    color: #1ea8e7;
+}
+.card{
+    border: 1px solid rgb(0 0 0 / 0%) !important;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 0.7rem;
+}
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #1ea8e7;
+}
+.btn-search,.btn-primary{
+    background-color: #1ea8e7;
+
+}
+.btn-primary:hover{
+    background-color: #1a92c9;
+
+}
+/*********************Formkit**********************/
+
+[data-type="submit"] .formkit-input {
+    width: 100% !important;
+    background:  #1ea8e7 !important;
+    color: var(--fk-color-submit);
+}
+[data-invalid] .formkit-inner {
+    border-color: red;
+    box-shadow: 0 0 0 1px red;
+  }
+  
+  [data-complete] .formkit-inner {
+    border-color: red;
+    box-shadow: 0 0 0 1.5px green;
+  }
